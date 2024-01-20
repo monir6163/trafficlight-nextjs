@@ -36,7 +36,7 @@ export default function TrafficLight() {
 
   return (
     <div className="flex flex-col gap-5 border p-10">
-      <div className="relative w-16 h-16 md:w-40 md:h-40 rounded-full">
+      <div className="relative w-24 h-24 md:w-40 md:h-40 rounded-full">
         <div
           className={`absolute top-1/2 transform -translate-y-1/2 -right-44 ${
             light === "red" && "text-white"
@@ -57,7 +57,7 @@ export default function TrafficLight() {
           } rounded-full`}
         ></div>
       </div>
-      <div className="relative w-16 h-16 md:w-40 md:h-40 rounded-full">
+      <div className="relative w-24 h-24 md:w-40 md:h-40 rounded-full">
         <div
           className={`absolute top-1/2 transform -translate-y-1/2 -right-44 ${
             light === "yellow" && "text-white"
@@ -78,7 +78,7 @@ export default function TrafficLight() {
           } rounded-full`}
         ></div>
       </div>
-      <div className="relative w-16 h-16 md:w-40 md:h-40 rounded-full">
+      <div className="relative w-24 h-24 md:w-40 md:h-40 rounded-full">
         <div
           className={`absolute top-1/2 transform -translate-y-1/2 -right-44 ${
             light === "green" && "text-white"
